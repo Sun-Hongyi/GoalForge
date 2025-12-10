@@ -1,0 +1,194 @@
+#intro_message {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 111, 0);
+    position: relative;
+    top: 40%;
+    bottom: 20%;
+    transform: translate(5%, 150%);
+}
+#login_welcome{
+    transform: translate(45%, 600%);
+    color: blue;
+}
+#Login-button{
+    font-size: 25px;
+    width: 80px;
+    transform: translate(900%, 700%);
+    background-color: pink;
+    border-radius: 15px;
+}
+#Signup-button{
+    font-size: 25px;
+    width: 100px;
+    transform: translate(730%, 850%);
+    background-color: pink;
+    border-radius: 15px;
+}
+#Home-button{
+    color: lightgrey;
+    font-size: 25px;
+    width: 160px;
+    transform: translate(375%, 1300%);
+    background-color: green;
+    border-radius: 15px;
+}  
+#login_button {
+    position: absolute;
+    top: 60%;    
+    left: calc(50% - 60px); 
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+}
+#Signup_button {
+    position: absolute;
+    top: 60%;   
+    left: calc(50% + 60px);  
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+}
+#login_button, #Signup_button {
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+}
+#signup_intro{
+    transform: translate(45%, 450%);
+    color: lightgreen;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+}
+#add_goal_btn{
+    position: relative;
+    top: 300px;
+    left: 700px; 
+    font-size: 30px;
+}
+#empty-state{
+    color: darkblue;
+}
+#addgoalmsg{
+    position: relative;
+    top: 150px;
+    left: 625px;
+}
+#final_goal{
+    width: 30%;
+    height: 20px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+#goal_set{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top:600px;
+    left: 650px;
+}
+#Subgoal_msg{
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+#subgoal_btn{
+    position: relative;
+    top: 190px;
+    left: 725px;
+    width: 40px;
+    height: 40px;
+}
+#logout{
+    position: relative;
+    top: 500px;
+    left: 645px;
+    height: 30px;
+    color: black;
+}
+.goal_label{
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+.goals-container{
+    position: relative;
+    top: 250px;
+    left: -20px;
+    text-align: center;
+}
+.goal-state{
+    background-color: cyan;
+}
+.home_page{
+    position: relative;
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+.enter_username{
+    color: white;
+    transform: translate(43%, 1050%);
+}
+.enter_password{
+    color: white;
+    transform: translate(43%, 1150%);
+}
+.fill-username{
+    color:white;
+    transform: translate(43%, 1000%);
+}
+.fill-password{
+    color:white;
+    transform: translate(43%, 1050%);
+}
+.login_page{
+    background-image: url("images/login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+.signup_page{
+    background-image: url("images/signup.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.goal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.complete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.complete-btn:hover {
+    background-color: #45a049;
+}
+
+.completion-status.completed {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.completion-status.incomplete {
+    color: #ff9800;
+}
+
+
+

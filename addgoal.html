@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add your goals</title>
+        <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <h1 id="addgoalmsg">
+            Create your goal
+        </h1>
+
+        <form class="create_goal">
+            <!--big goal-->
+            <label for="biggoal" class="goal_label">Final goal:</label>
+            <input type="text" id="final_goal" placeholder="Enter your dream goal" required>
+        </form>
+
+        <h2 id="Subgoal_msg">Add subgoals below</h2>
+        <div id="subgoals-list">
+            <!-- Subgoals will appear here when + button is clicked -->
+        </div>
+
+        <button id="subgoal_btn">+</button>
+
+        <button id="goal_set">Save Goal</button>
+
+        <script src="js_files/goals.js"></script>
+    </body>
+</html>
